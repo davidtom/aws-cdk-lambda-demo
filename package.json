@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "server": "node ./dist/src/index.js"
+    "server": "node ./dist/src/app.local.js"
   },
   "dependencies": {
     "@aws-cdk/cdk": "^0.21.0",
