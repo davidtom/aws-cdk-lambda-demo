@@ -1,0 +1,16 @@
+{
+  "name": "aws-cdk-lambda-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "davidtom <davidjtomczyk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "server": "node ./dist/src/index.js"
+  },
+  "dependencies": {
+    "@aws-cdk/cdk": "^0.21.0",
+    "express": "^4.16.4"
+  }
+}
