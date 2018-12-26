@@ -10,7 +10,9 @@
     "server": "node ./dist/src/app.local.js"
   },
   "dependencies": {
+    "@aws-cdk/aws-lambda": "^0.21.0",
     "@aws-cdk/cdk": "^0.21.0",
+    "aws-serverless-express": "^3.3.5",
     "express": "^4.16.4"
   }
 }
