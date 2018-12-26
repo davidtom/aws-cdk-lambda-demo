@@ -1,4 +1,4 @@
-import awsServerlessExpress from 'aws-serverless-express';
+import * as awsServerlessExpress from 'aws-serverless-express';
 import app from './app';
 
 // NOTE: If you get ERR_CONTENT_DECODING_FAILED in your browser, this is likely
