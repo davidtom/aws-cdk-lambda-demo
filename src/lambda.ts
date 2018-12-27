@@ -30,8 +30,3 @@ const binaryMimeTypes = [
 const server = awsServerlessExpress.createServer(app, null, binaryMimeTypes);
 
 export const handler = (event, context) => awsServerlessExpress.proxy(server, event, context);
-
-// WHERE I LEFT OFF:
-// have basic server set up, and this file should convert that server into something usable by aws lambda
-// next step is to create my app/stack/lambda function. probably by copying the setup from: https://github.com/awslabs/aws-cdk/blob/master/examples/cdk-examples-typescript/chat-app/index.ts
-// REMEMBER: the focus here is to decide what I need to do and how to get RockPapr's current server set up onto lambda

@@ -7,7 +7,6 @@ import {
 
 import * as lambda from '@aws-cdk/aws-lambda'
 import * as apigateway from '@aws-cdk/aws-apigateway'
-import { ContentHandling } from '@aws-cdk/aws-apigateway';
 
 class DemoStack extends Stack {
     constructor(parent: App, name: string, props?: StackProps) {
