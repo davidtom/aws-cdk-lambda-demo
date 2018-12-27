@@ -14,7 +14,6 @@ class DemoStack extends Stack {
 
         const demoFunction = new lambda.Function(this, 'demoFunction', {
             runtime: lambda.Runtime.NodeJS810,
-            // NOTE: path below is relative to root directory (where cdk is called)
             code: lambda.Code.asset(path.join(__dirname, '../src')),
             handler: 'lambda.handler'
         });
