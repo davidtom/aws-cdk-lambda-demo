@@ -7,4 +7,9 @@ app.get('/', function(req, res) {
     res.json('Hello World')
 });
 
+app.get('/mirror', function(req, res) {
+    console.log(req.url);
+    res.json(req.query)
+})
+
 export default app;
